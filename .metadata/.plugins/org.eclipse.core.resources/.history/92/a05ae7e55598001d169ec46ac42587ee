@@ -1,0 +1,35 @@
+package practice;
+
+public class day7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//for while loop
+//*
+//*initialization
+//
+//while(condition) {
+//	//statements
+//	
+//	increment/decrement
+//}
+//}
+
+
+//print hello 5 times with while loop
+		
+		int i1 = 1;
+		while (i1 <= 5) {
+			System.out.println("hello");
+			//i1 = i1 + 1;
+			i1++;
+		}
+//Printing 1 to 5
+		int p = 1;
+		while(p <= 5) {
+			System.out.println(p);
+		}
+	}
+
+}

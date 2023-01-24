@@ -1,0 +1,28 @@
+package practice;
+
+public class day4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Conditional statement
+		//one input and multiple outcomes
+		
+		// Tickets example
+		
+		//numT > 0 && numT <= 5   =====>10%
+		//numT > 5 && numT <= 10  =====>20%
+		//numT > 10
+		
+		//if(condition) {
+		//	statements
+		//}
+  if(2==3) {
+	  System.out.println("hello");
+  }
+  else {
+	  System.out.println("bye");
+  }
+	}
+
+}

@@ -1,0 +1,30 @@
+package practice;
+
+public class day2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Define and variable and assign a value
+		
+		int a=10;
+		System.out.println(a);
+		
+		//Arithmetic operator
+		
+		int s=10;
+		int t=5;
+		int q=s+t;
+		System.out.println(q);
+		System.out.println(s+t);
+		System.out.println(q+q);
+		
+		System.out.println(s+t);
+		System.out.println(s-t);
+		System.out.println(s*t);
+		System.out.println(s/t);
+		System.out.println(s%t);
+
+	}
+
+}

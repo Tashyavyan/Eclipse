@@ -1,0 +1,75 @@
+package practice;
+
+public class day7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//for while loop
+//*
+//*initialization
+//
+//while(condition) {
+//	//statements
+//	
+//	increment/decrement
+//}
+//}
+
+
+//print hello 5 times with while loop
+		
+		int i1 = 1;
+		while (i1 <= 5) {
+			System.out.println("hello");
+			//i1 = i1 + 1;
+			i1++;
+		}
+//Printing 1 to 5
+		int p = 1;
+		while(p <= 5) {
+			System.out.println(p);
+			p++;
+		}
+		//printing reverse 5 to 1
+		
+		int r = 5;
+		while(r >= 1) {
+			System.out.println(r);
+			r--;
+		}
+		//printing table of 2
+		
+		int t = 2;
+		while(t <= 20) {
+			System.out.println(t);
+			t = t + 2;
+		}
+		//printing table of 5
+		
+	int t5 = 5;
+	while(t5 <= 50) {
+		System.out.println(t5);
+		t5 = t5 + 5;
+	}
+	 //printing table of 6 reverse
+	
+	int r6 = 60;
+	while(r6 >= 6) {
+		System.out.println(r6);
+		r6 = r6 - 6;
+	}
+	
+	//break with while loop reverse
+	
+	int b = 5;
+	while(b >=1) {
+		if(b == 2) {
+			break;
+		}
+		System.out.println(b);
+		b--;
+	}
+	}
+
+}

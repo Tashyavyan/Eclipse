@@ -1,0 +1,71 @@
+package practice;
+
+public class day4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Conditional statement
+		//one input and multiple outcomes
+		
+		// Tickets example
+		
+		//numT > 0 && numT <= 5   =====>10%
+		//numT > 5 && numT <= 10  =====>20%
+		//numT > 10
+		
+		//if(condition) {
+		//	statements
+		//}
+  if(2==3) {
+	  System.out.println("hello");
+  }
+  else {
+	  System.out.println("bye");
+  }
+  
+  int numT = 100;
+   numT = 4;
+  numT = 10;
+  if(numT > 0 && numT <= 5) {
+	  System.out.println("10% discount");
+  }
+  if(numT > 5 && numT <= 10) {
+	  System.out.println("20% discount");
+  }
+  if(numT > 20) {
+	  System.out.println("30% discount");
+  
+	}
+if(numT > 0 && numT<= 5) {
+	System.out.println("10% discount");
+}
+else if(numT > 5 && numT <= 10) {
+	System.out.println("20% discount");
+}
+else if(numT > 75) {
+	System.out.println("30% discount");
+}
+int score = 75;
+
+if(score > 90) {
+	System.out.println("Grade A");
+}
+else if(score >75 && score == 90) {
+System.out.println("Grade B");
+	}
+	else if(score <=75) {
+		System.out.println("Grade C");
+	}
+ int x1 =100;
+ int x2 = 15;
+ 
+ if (x1 > x2) {
+	 System.out.println("x1 is greater");
+ }
+ else {
+	 System.out.println("x2 is greater");
+ }
+	}}
+	
+	
